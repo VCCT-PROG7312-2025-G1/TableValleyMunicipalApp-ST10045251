@@ -1,5 +1,4 @@
 # TableValleyMunicipalApp
-# Table Valley Municipal App
 
 ## Overview
 The Table Valley Municipal App is a cross-platform application built with **Visual Studio** that allows citizens to report municipal issues, track their status in real-time, and receive feedback from municipal staff. It promotes **transparency**, **accountability**, and **citizen engagement** in local governance.
