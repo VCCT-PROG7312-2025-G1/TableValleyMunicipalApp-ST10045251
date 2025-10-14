@@ -63,7 +63,7 @@ namespace TableValleyMunicipalApp.Forms
             this.grpAddIssue.Controls.Add(this.btnBack);
             this.grpAddIssue.Location = new System.Drawing.Point(12, 12);
             this.grpAddIssue.Name = "grpAddIssue";
-            this.grpAddIssue.Size = new System.Drawing.Size(560, 250);
+            this.grpAddIssue.Size = new System.Drawing.Size(560, 308);
             this.grpAddIssue.TabIndex = 0;
             this.grpAddIssue.TabStop = false;
             this.grpAddIssue.Text = "Report an Issue";
@@ -71,7 +71,7 @@ namespace TableValleyMunicipalApp.Forms
             // lblAttachmentPath
             // 
             this.lblAttachmentPath.AutoSize = true;
-            this.lblAttachmentPath.Location = new System.Drawing.Point(98, 216);
+            this.lblAttachmentPath.Location = new System.Drawing.Point(97, 268);
             this.lblAttachmentPath.Name = "lblAttachmentPath";
             this.lblAttachmentPath.Size = new System.Drawing.Size(80, 13);
             this.lblAttachmentPath.TabIndex = 0;
@@ -79,7 +79,7 @@ namespace TableValleyMunicipalApp.Forms
             // 
             // lblLocation
             // 
-            this.lblLocation.Location = new System.Drawing.Point(15, 30);
+            this.lblLocation.Location = new System.Drawing.Point(15, 64);
             this.lblLocation.Name = "lblLocation";
             this.lblLocation.Size = new System.Drawing.Size(59, 23);
             this.lblLocation.TabIndex = 0;
@@ -87,14 +87,14 @@ namespace TableValleyMunicipalApp.Forms
             // 
             // txtLocation
             // 
-            this.txtLocation.Location = new System.Drawing.Point(90, 27);
+            this.txtLocation.Location = new System.Drawing.Point(90, 64);
             this.txtLocation.Name = "txtLocation";
-            this.txtLocation.Size = new System.Drawing.Size(440, 20);
+            this.txtLocation.Size = new System.Drawing.Size(186, 20);
             this.txtLocation.TabIndex = 1;
             // 
             // lblCategory
             // 
-            this.lblCategory.Location = new System.Drawing.Point(15, 70);
+            this.lblCategory.Location = new System.Drawing.Point(15, 120);
             this.lblCategory.Name = "lblCategory";
             this.lblCategory.Size = new System.Drawing.Size(59, 23);
             this.lblCategory.TabIndex = 2;
@@ -109,14 +109,14 @@ namespace TableValleyMunicipalApp.Forms
             "Electricity",
             "Sanitation",
             "Other"});
-            this.comboBoxCategory.Location = new System.Drawing.Point(90, 67);
+            this.comboBoxCategory.Location = new System.Drawing.Point(90, 117);
             this.comboBoxCategory.Name = "comboBoxCategory";
             this.comboBoxCategory.Size = new System.Drawing.Size(150, 21);
             this.comboBoxCategory.TabIndex = 3;
             // 
             // lblDescription
             // 
-            this.lblDescription.Location = new System.Drawing.Point(15, 110);
+            this.lblDescription.Location = new System.Drawing.Point(15, 184);
             this.lblDescription.Name = "lblDescription";
             this.lblDescription.Size = new System.Drawing.Size(69, 23);
             this.lblDescription.TabIndex = 4;
@@ -124,7 +124,7 @@ namespace TableValleyMunicipalApp.Forms
             // 
             // txtDescription
             // 
-            this.txtDescription.Location = new System.Drawing.Point(90, 107);
+            this.txtDescription.Location = new System.Drawing.Point(90, 166);
             this.txtDescription.Multiline = true;
             this.txtDescription.Name = "txtDescription";
             this.txtDescription.Size = new System.Drawing.Size(440, 60);
@@ -132,7 +132,7 @@ namespace TableValleyMunicipalApp.Forms
             // 
             // lblAttachment
             // 
-            this.lblAttachment.Location = new System.Drawing.Point(15, 190);
+            this.lblAttachment.Location = new System.Drawing.Point(15, 242);
             this.lblAttachment.Name = "lblAttachment";
             this.lblAttachment.Size = new System.Drawing.Size(69, 23);
             this.lblAttachment.TabIndex = 6;
@@ -140,7 +140,7 @@ namespace TableValleyMunicipalApp.Forms
             // 
             // btnBrowse
             // 
-            this.btnBrowse.Location = new System.Drawing.Point(90, 190);
+            this.btnBrowse.Location = new System.Drawing.Point(90, 242);
             this.btnBrowse.Name = "btnBrowse";
             this.btnBrowse.Size = new System.Drawing.Size(107, 23);
             this.btnBrowse.TabIndex = 7;
@@ -152,7 +152,7 @@ namespace TableValleyMunicipalApp.Forms
             this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(100)))), ((int)(((byte)(144)))));
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd.ForeColor = System.Drawing.Color.White;
-            this.btnAdd.Location = new System.Drawing.Point(359, 210);
+            this.btnAdd.Location = new System.Drawing.Point(450, 277);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(80, 25);
             this.btnAdd.TabIndex = 8;
@@ -165,7 +165,7 @@ namespace TableValleyMunicipalApp.Forms
             this.btnBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(100)))), ((int)(((byte)(144)))));
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBack.ForeColor = System.Drawing.Color.White;
-            this.btnBack.Location = new System.Drawing.Point(450, 210);
+            this.btnBack.Location = new System.Drawing.Point(4, 19);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(80, 25);
             this.btnBack.TabIndex = 9;
@@ -177,9 +177,9 @@ namespace TableValleyMunicipalApp.Forms
             // 
             this.flpIssues.AutoScroll = true;
             this.flpIssues.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(201)))), ((int)(((byte)(229)))));
-            this.flpIssues.Location = new System.Drawing.Point(12, 280);
+            this.flpIssues.Location = new System.Drawing.Point(12, 340);
             this.flpIssues.Name = "flpIssues";
-            this.flpIssues.Size = new System.Drawing.Size(560, 250);
+            this.flpIssues.Size = new System.Drawing.Size(560, 190);
             this.flpIssues.TabIndex = 1;
             // 
             // MainForm
