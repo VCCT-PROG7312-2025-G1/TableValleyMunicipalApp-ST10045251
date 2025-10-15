@@ -1,31 +1,76 @@
 # TableValleyMunicipalApp
 
 ## Overview
-The Table Valley Municipal App is a cross-platform application built with **Visual Studio** that allows citizens to report municipal issues, track their status in real-time, and receive feedback from municipal staff. It promotes **transparency**, **accountability**, and **citizen engagement** in local governance.
+The **Table Valley Municipal App** is a Windows Forms application built in **Visual Studio 2022** to strengthen communication between citizens and the municipality.  
+The app enables residents to **report issues**, **stay informed about local events**, and **track municipal responses**.  
+It promotes **transparency**, **accountability**, and **active community participation** in local governance.
+
+---
 
 ## Features
-- **Issue Reporting**: Submit issues with descriptions, categories, and optional documents.
-- **Status Tracking**: Monitor the progress of each report from submission to resolution.
-- **Feedback Loops**: Communicate with municipal staff for clarifications or updates.
-- **Notifications**: Receive alerts when report statuses change.
 
+### 🧾 Report an Issue
+- Submit issues such as water leaks, power outages, or road damage.  
+- Attach optional images or documents for supporting evidence.  
+- Each report includes a category, location, and description.  
+- Issues are dynamically displayed using a **custom-built data structure**.
+
+### 📅 Stay Informed (Local Events)
+- View upcoming **municipal and community events** such as clean-ups, safety meetings, and cultural activities.  
+- Add new events with details such as **name, date, category, location, and description**.  
+- Use the **search bar** to find events by keyword or category.  
+- Sort events by **date**, **name**, or **category**.  
+- Uses a **custom Dictionary and Queue** implementation to store and manage events efficiently.
+
+### 🔍 Search, Sort, and Manage
+- All data displays update dynamically in real time.  
+- Visual feedback is provided when users add, search, or sort content.
+
+### 🎨 Consistent and Accessible Design
+- A clean, intuitive interface using a **lavender and cream theme**.  
+- Consistent design language across all pages.  
+- UI uses **GroupBoxes**, **FlowLayoutPanels**, and **color-coded buttons** for clear navigation.  
+- Tooltips and text labels guide users before they click, improving accessibility and user understanding.
+
+---
 
 ## How It Works
-1. Citizens submit a report via the app.  
-2. Reports are stored and assigned a status.  
-3. Staff update the status and provide feedback as necessary.  
-4. Citizens can track progress and respond to staff updates, creating a transparent two-way communication loop.
+1. **Report Issues** – Citizens log issues with location, category, and description.  
+2. **Stay Informed** – Users can view or add local events, search for specific events, and sort them.  
+3. **Data Storage** – Issues and events are stored using **custom data structures** (Queue, Dictionary).  
+4. **Feedback & Interaction** – The application updates views dynamically to reflect all interactions.
+
+---
 
 ## Project Structure
-- **Views**: Forms for adding issues, viewing reports, and detailed issue pages.  
-- **Models**: Represent issues and users.  
-- **Services**: Handle CRUD operations, notifications, and interactions.
+| Folder | Purpose |
+|--------|----------|
+| **Forms** | Contains all Windows Forms for Issue Reporting and Local Events. |
+| **Models** | Data models representing issues and event objects. |
+| **Services** | Handles event management, data queueing, and sorting logic. |
 
-## Future Enhancements
-- Push notifications for real-time updates.  
-- Analytics dashboard for staff.  
-- Map view for visualizing issues geographically.  
-- Role-based access for staff and admins.
+---
 
-## Link to YouTube of Table Valley Municipal App
-https://youtu.be/eP8HJyXMAlM
+## Technologies Used
+- **.NET Framework / Windows Forms (C#)**
+- **Custom-built data structures** (Queue, Dictionary, Stack)
+- **Visual Studio 2022**
+- **GitHub** for version control
+- **YouTube** for demonstration
+
+---
+
+## Part 2 Additions
+- Added a fully functional **Stay Informed (Local Events)** page.  
+- Implemented **search and sort functionality** with real-time updates.  
+- Populated 15+ **sample data entries** for events to demonstrate functionality.  
+- Added **visual feedback and tooltips** for better user experience.  
+- Enhanced **branding** with Table Valley Municipality logo and consistent theme.  
+- Fixed Part 1 bugs and improved navigation between pages.  
+- Recorded a **video demonstration** showcasing all new and existing features.  
+
+---
+
+## Links
+- **GitHub Repository:** [TableValleyMunicipalApp](https://github.com/ST10045251/TableValleyMunicipalApp)  
+- **YouTube Demonstration:** [Watch Here](https://youtu.be/eP8HJyXMAlM)
