@@ -73,4 +73,13 @@ It promotes **transparency**, **accountability**, and **active community partici
 
 ## Links
 - **GitHub Repository:** [TableValleyMunicipalApp](https://github.com/ST10045251/TableValleyMunicipalApp)  
-- **YouTube Demonstration:** [Watch Here]([https://youtu.be/eP8HJyXMAlM](https://youtu.be/YLugVdwIgFM))
+- **YouTube Demonstration:** [Watch Here]([[https://youtu.be/eP8HJyXMAlM](https://youtu.be/YLugVdwIgFM](https://youtu.be/IpwxbRDbCE4)))
+
+## References
+City of Cape Town (2013). City of Cape Town Link. [online] City of Cape Town. Available at: https://www.capetown.gov.za/.
+Dullah Omar Institute. (2025). Making use of citizen-based monitoring approach to improve service delivery by municipalities. [online] Available at: https://dullahomarinstitute.org.za/multilevel-govt/local-government-bulletin/archives/volume-20-issue-2-june-2025/making-use-of-citizen-based-monitoring-approach-to-improve-service-delivery-by-municipalities?
+Hart, T.G.B., Booyens, I. and Sinyolo, S. (2019). Innovation for Development in South Africa: Experiences with Basic Service Technologies in Distressed Municipalities. Forum for Development Studies, [online] 47(1), pp.23–47. doi:https://doi.org/10.1080/08039410.2019.1654543.
+Jotform.com. (2021). Report an Issue. [online] Available at: https://www.jotform.com/build/252517743589570?s=templates
+PUBLIC PARTICIPATION AND MUNICIPAL PLANNING IN SOUTH AFRICA: A Consolidated Technical Findings Report on Action Research at 12 Local Municipalities. (2024). Available at: https://pari.org.za/wp-content/uploads/2024/12/COMPACT-Consolidated-Technical-Findings-Report-FINAL-November-2024.pdf?
+w3schools (2022). C# Tutorial (C Sharp). [online] www.w3schools.com. Available at: https://www.w3schools.com/cs/index.php
+WCEDP (2025). Strengthening community trust in municipal projects: lessons from the Z-CMF’s success in stakeholder engagement - EDP. [online] EDP - Western Cape Economic Development Partnership. Available at: https://wcedp.co.za/strengthening-community-trust-in-municipal-projects-lessons-from-the-z-cmfs-success-in-stakeholder-engagement/
