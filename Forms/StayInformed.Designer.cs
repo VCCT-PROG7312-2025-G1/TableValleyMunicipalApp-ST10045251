@@ -169,6 +169,7 @@ namespace TableValleyMunicipalApp.Forms
             };
 
             //btnSearch
+            this.btnSearch = new Button();
             this.btnSearch.BackColor = Color.FromArgb(180,110,144);
             this.btnSearch.FlatStyle = FlatStyle.Flat;
             this.btnSearch.ForeColor = Color.White;
@@ -176,6 +177,7 @@ namespace TableValleyMunicipalApp.Forms
             this.btnSearch.Size = new Size(80, 25);
             this.btnSearch.Text = "Search:";
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            this.Controls.Add(this.btnSearch);
 
             //lblSort
             this.lblSort.Location = new Point(300, 335);
@@ -186,7 +188,7 @@ namespace TableValleyMunicipalApp.Forms
             this.cmbSort.Items.AddRange(new object[] { "Date", "Name", "Category" });
             this.cmbSort.Location = new Point(350, 333);
             this.cmbSort.Size = new Size(100, 21);
-            this.cmbSort.SelectedIndexChanged += new System.EventHandler(this.comboBoxSort_SelectedIndexChanged);
+            this.cmbSort.SelectedIndexChanged += new System.EventHandler(this.cmbSort_SelectedIndexChanged);
 
             //flpEvents
             this.flpEvents.AutoScroll = true;

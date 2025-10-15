@@ -79,6 +79,8 @@ namespace TableValleyMunicipalApp.Forms
 
         private void btnBack_Click(object sender, EventArgs e)
         {
+            HomeForm homeForm = new HomeForm();
+            homeForm.Show();
             this.Close(); 
         }
 
