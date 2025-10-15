@@ -62,8 +62,7 @@ It promotes **transparency**, **accountability**, and **active community partici
 
 ## Part 2 Additions
 - Added a fully functional **Stay Informed (Local Events)** page.  
-- Implemented **search and sort functionality** with real-time updates.  
-- Populated 15+ **sample data entries** for events to demonstrate functionality.  
+- Implemented **search and sort functionality** with real-time updates. 
 - Added **visual feedback and tooltips** for better user experience.  
 - Enhanced **branding** with Table Valley Municipality logo and consistent theme.  
 - Fixed Part 1 bugs and improved navigation between pages.  
@@ -72,9 +71,9 @@ It promotes **transparency**, **accountability**, and **active community partici
 ---
 
 ## Links
-- **GitHub Repository:** [TableValleyMunicipalApp](https://github.com/ST10045251/TableValleyMunicipalApp)  
-- **YouTube Demonstration:** [Watch Here]([[https://youtu.be/eP8HJyXMAlM](https://youtu.be/YLugVdwIgFM](https://youtu.be/IpwxbRDbCE4)))
-
+- **GitHub Repository:** [TableValleyMunicipalApp](https://github.com/VCCT-PROG7312-2025-G1/TableValleyMunicipalApp-ST10045251)  
+- **YouTube Demonstration:** [Watch Here](https://youtu.be/IpwxbRDbCE4)
+  
 ## References
 City of Cape Town (2013). City of Cape Town Link. [online] City of Cape Town. Available at: https://www.capetown.gov.za/.
 Dullah Omar Institute. (2025). Making use of citizen-based monitoring approach to improve service delivery by municipalities. [online] Available at: https://dullahomarinstitute.org.za/multilevel-govt/local-government-bulletin/archives/volume-20-issue-2-june-2025/making-use-of-citizen-based-monitoring-approach-to-improve-service-delivery-by-municipalities?
