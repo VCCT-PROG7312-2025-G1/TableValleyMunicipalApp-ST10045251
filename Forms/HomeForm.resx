@@ -117,4 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Your one-stop platform for reporting any muicipal issues,
+to staying updated on community events and to tracking service requests in your area.
+We aim to make communication between residents and the muncipality clear, 
+easy, fast and more transparent.
+</value>
+  </data>
 </root>
