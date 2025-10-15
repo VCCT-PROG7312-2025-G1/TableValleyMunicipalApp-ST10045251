@@ -59,14 +59,27 @@
     <Compile Include="Forms\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\StayInformed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StayInformed.Designer.cs">
+      <DependentUpon>StayInformed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Events.cs" />
     <Compile Include="Models\Issues.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\EnginRec.cs" />
+    <Compile Include="Service\EventQueue.cs" />
+    <Compile Include="Service\Storing.cs" />
     <EmbeddedResource Include="Forms\HomeForm.resx">
       <DependentUpon>HomeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StayInformed.resx">
+      <DependentUpon>StayInformed.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
