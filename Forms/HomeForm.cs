@@ -28,5 +28,12 @@ namespace TableValleyMunicipalApp.Forms
         {
 
         }
+
+        private void btnStayInformed_Click(object sender, EventArgs e)
+        {
+            StayInformed stayInformed = new StayInformed();
+            stayInformed.Show();
+            this.Hide();
+        }
     }
 }

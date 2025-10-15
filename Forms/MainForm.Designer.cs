@@ -46,9 +46,8 @@ namespace TableValleyMunicipalApp.Forms
             this.flpIssues = new System.Windows.Forms.FlowLayoutPanel();
             this.grpAddIssue.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // grpAddIssue
-            // 
+
+            //grpAddIssue
             this.grpAddIssue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(253)))), ((int)(((byte)(245)))));
             this.grpAddIssue.Controls.Add(this.lblAttachmentPath);
             this.grpAddIssue.Controls.Add(this.lblLocation);
@@ -67,41 +66,36 @@ namespace TableValleyMunicipalApp.Forms
             this.grpAddIssue.TabIndex = 0;
             this.grpAddIssue.TabStop = false;
             this.grpAddIssue.Text = "Report an Issue";
-            // 
-            // lblAttachmentPath
-            // 
+
+            //lblAttachmentPath
             this.lblAttachmentPath.AutoSize = true;
             this.lblAttachmentPath.Location = new System.Drawing.Point(97, 268);
             this.lblAttachmentPath.Name = "lblAttachmentPath";
             this.lblAttachmentPath.Size = new System.Drawing.Size(80, 13);
             this.lblAttachmentPath.TabIndex = 0;
             this.lblAttachmentPath.Text = "No file selected";
-            // 
-            // lblLocation
-            // 
+
+            //lblLocation
             this.lblLocation.Location = new System.Drawing.Point(15, 64);
             this.lblLocation.Name = "lblLocation";
             this.lblLocation.Size = new System.Drawing.Size(59, 23);
             this.lblLocation.TabIndex = 0;
             this.lblLocation.Text = "Location:";
-            // 
-            // txtLocation
-            // 
+
+            //txtLocation
             this.txtLocation.Location = new System.Drawing.Point(90, 64);
             this.txtLocation.Name = "txtLocation";
             this.txtLocation.Size = new System.Drawing.Size(186, 20);
             this.txtLocation.TabIndex = 1;
-            // 
-            // lblCategory
-            // 
+
+            //lblCategory
             this.lblCategory.Location = new System.Drawing.Point(15, 120);
             this.lblCategory.Name = "lblCategory";
             this.lblCategory.Size = new System.Drawing.Size(59, 23);
             this.lblCategory.TabIndex = 2;
             this.lblCategory.Text = "Category:";
-            // 
-            // comboBoxCategory
-            // 
+
+            //comboBoxCategory
             this.comboBoxCategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxCategory.Items.AddRange(new object[] {
             "Water",
@@ -113,42 +107,37 @@ namespace TableValleyMunicipalApp.Forms
             this.comboBoxCategory.Name = "comboBoxCategory";
             this.comboBoxCategory.Size = new System.Drawing.Size(150, 21);
             this.comboBoxCategory.TabIndex = 3;
-            // 
-            // lblDescription
-            // 
+
+            //lblDescription
             this.lblDescription.Location = new System.Drawing.Point(15, 184);
             this.lblDescription.Name = "lblDescription";
             this.lblDescription.Size = new System.Drawing.Size(69, 23);
             this.lblDescription.TabIndex = 4;
             this.lblDescription.Text = "Description:";
-            // 
-            // txtDescription
-            // 
+
+            //txtDescription
             this.txtDescription.Location = new System.Drawing.Point(90, 166);
             this.txtDescription.Multiline = true;
             this.txtDescription.Name = "txtDescription";
             this.txtDescription.Size = new System.Drawing.Size(440, 60);
             this.txtDescription.TabIndex = 5;
-            // 
-            // lblAttachment
-            // 
+
+            //lblAttachment
             this.lblAttachment.Location = new System.Drawing.Point(15, 242);
             this.lblAttachment.Name = "lblAttachment";
             this.lblAttachment.Size = new System.Drawing.Size(69, 23);
             this.lblAttachment.TabIndex = 6;
             this.lblAttachment.Text = "Attachment:";
-            // 
-            // btnBrowse
-            // 
+
+            //btnBrowse
             this.btnBrowse.Location = new System.Drawing.Point(90, 242);
             this.btnBrowse.Name = "btnBrowse";
             this.btnBrowse.Size = new System.Drawing.Size(107, 23);
             this.btnBrowse.TabIndex = 7;
             this.btnBrowse.Text = "Browse...";
             this.btnBrowse.Click += new System.EventHandler(this.btnBrowse_Click);
-            // 
-            // btnAdd
-            // 
+
+            //btnAdd
             this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(100)))), ((int)(((byte)(144)))));
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd.ForeColor = System.Drawing.Color.White;
@@ -159,9 +148,8 @@ namespace TableValleyMunicipalApp.Forms
             this.btnAdd.Text = "Add Issue";
             this.btnAdd.UseVisualStyleBackColor = false;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
-            // 
-            // btnBack
-            // 
+
+            //btnBack
             this.btnBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(100)))), ((int)(((byte)(144)))));
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBack.ForeColor = System.Drawing.Color.White;
@@ -172,18 +160,16 @@ namespace TableValleyMunicipalApp.Forms
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
-            // 
-            // flpIssues
-            // 
+
+            //flpIssues
             this.flpIssues.AutoScroll = true;
             this.flpIssues.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(201)))), ((int)(((byte)(229)))));
             this.flpIssues.Location = new System.Drawing.Point(12, 340);
             this.flpIssues.Name = "flpIssues";
             this.flpIssues.Size = new System.Drawing.Size(560, 190);
             this.flpIssues.TabIndex = 1;
-            // 
-            // MainForm
-            // 
+
+            //MainForm
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(253)))), ((int)(((byte)(245)))));
             this.ClientSize = new System.Drawing.Size(584, 550);
             this.Controls.Add(this.grpAddIssue);
@@ -193,7 +179,6 @@ namespace TableValleyMunicipalApp.Forms
             this.grpAddIssue.ResumeLayout(false);
             this.grpAddIssue.PerformLayout();
             this.ResumeLayout(false);
-
         }
     }
 }
