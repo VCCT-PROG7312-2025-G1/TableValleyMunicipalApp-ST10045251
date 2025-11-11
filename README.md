@@ -66,7 +66,12 @@ It promotes **transparency**, **accountability**, and **active community partici
 - Added **visual feedback and tooltips** for better user experience.  
 - Enhanced **branding** with Table Valley Municipality logo and consistent theme.  
 - Fixed Part 1 bugs and improved navigation between pages.  
-- Recorded a **video demonstration** showcasing all new and existing features.  
+- Recorded a **video demonstration** showcasing all new and existing features.
+
+--
+
+## Part 3 Additions
+
 
 ---
 
