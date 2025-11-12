@@ -1,8 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
-using System.Collections.Generic;
-using System.Diagnostics.Tracing;
 
 namespace TableValleyMunicipalApp.Forms
 {
@@ -15,7 +14,24 @@ namespace TableValleyMunicipalApp.Forms
         public StayInformed()
         {
             InitializeComponent();
+            this.txtSearch.GotFocus += (s, e) =>
+            {
+                if (txtSearch.Text == "Search all events...")
+                {
+                    txtSearch.Text = "";
+                    txtSearch.ForeColor = Color.Black;
+                }
+            };
+            this.txtSearch.LostFocus += (s, e) =>
+            {
+                if (string.IsNullOrWhiteSpace(txtSearch.Text))
+                {
+                    txtSearch.Text = "Search all events...";
+                    txtSearch.ForeColor = Color.Gray;
+                }
+            };
         }
+
 
         private void btnAddEvent_Click(object sender, EventArgs e)
         {
@@ -81,7 +97,7 @@ namespace TableValleyMunicipalApp.Forms
         {
             HomeForm homeForm = new HomeForm();
             homeForm.Show();
-            this.Close(); 
+            this.Close();
         }
 
         private void DisplayEvents(List<EventData> list)
