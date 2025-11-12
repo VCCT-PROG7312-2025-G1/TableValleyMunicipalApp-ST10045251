@@ -35,5 +35,10 @@ namespace TableValleyMunicipalApp.Forms
             stayInformed.Show();
             this.Hide();
         }
+
+        private void picLogo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

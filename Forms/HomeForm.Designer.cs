@@ -10,7 +10,6 @@ namespace TableValleyMunicipalApp.Forms
         private System.Windows.Forms.Button btnAddViewIssues;
         private System.Windows.Forms.Button btnTrackProgress;
         private System.Windows.Forms.Button btnStayInformed;
-        private System.Windows.Forms.PictureBox picLogo;
 
         protected override void Dispose(bool disposing)
         {
@@ -28,18 +27,18 @@ namespace TableValleyMunicipalApp.Forms
             this.btnAddViewIssues = new System.Windows.Forms.Button();
             this.btnTrackProgress = new System.Windows.Forms.Button();
             this.btnStayInformed = new System.Windows.Forms.Button();
-            this.picLogo = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.flpIssues = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.label4 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
+            this.picLogo = new System.Windows.Forms.PictureBox();
             this.flpIssues.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -47,7 +46,7 @@ namespace TableValleyMunicipalApp.Forms
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Times New Roman", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(79)))), ((int)(((byte)(80)))));
-            this.lblTitle.Location = new System.Drawing.Point(106, 9);
+            this.lblTitle.Location = new System.Drawing.Point(210, 9);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(498, 32);
             this.lblTitle.TabIndex = 0;
@@ -58,9 +57,8 @@ namespace TableValleyMunicipalApp.Forms
             this.btnAddViewIssues.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAddViewIssues.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(128)))), ((int)(((byte)(173)))));
-            this.btnAddViewIssues.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddViewIssues.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.btnAddViewIssues.ForeColor = System.Drawing.Color.White;
+            this.btnAddViewIssues.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnAddViewIssues.Location = new System.Drawing.Point(48, 364);
             this.btnAddViewIssues.Name = "btnAddViewIssues";
             this.btnAddViewIssues.Size = new System.Drawing.Size(187, 50);
@@ -72,8 +70,8 @@ namespace TableValleyMunicipalApp.Forms
             // btnTrackProgress
             // 
             this.btnTrackProgress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(128)))), ((int)(((byte)(173)))));
-            this.btnStayInformed.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.btnStayInformed.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnTrackProgress.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTrackProgress.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnTrackProgress.Location = new System.Drawing.Point(650, 364);
             this.btnTrackProgress.Name = "btnTrackProgress";
             this.btnTrackProgress.Size = new System.Drawing.Size(187, 50);
@@ -95,20 +93,12 @@ namespace TableValleyMunicipalApp.Forms
             this.btnStayInformed.UseVisualStyleBackColor = false;
             this.btnStayInformed.Click += new System.EventHandler(this.btnStayInformed_Click);
             // 
-            // picLogo
-            // 
-            this.picLogo.Location = new System.Drawing.Point(0, 0);
-            this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(100, 50);
-            this.picLogo.TabIndex = 1;
-            this.picLogo.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.RosyBrown;
-            this.label1.Location = new System.Drawing.Point(12, 79);
+            this.label1.Location = new System.Drawing.Point(32, 69);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(885, 100);
             this.label1.TabIndex = 5;
@@ -125,6 +115,18 @@ namespace TableValleyMunicipalApp.Forms
             this.flpIssues.Size = new System.Drawing.Size(187, 214);
             this.flpIssues.TabIndex = 6;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(3, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(179, 160);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Log any problem whether it be, water leaks, \r\npotholes or power outages, \r\ndirect" +
+    "ly to your municipailty for a faster resolution.";
+            // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.AutoScroll = true;
@@ -134,16 +136,6 @@ namespace TableValleyMunicipalApp.Forms
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(187, 213);
             this.flowLayoutPanel1.TabIndex = 8;
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.AutoScroll = true;
-            this.flowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(128)))), ((int)(((byte)(173)))));
-            this.flowLayoutPanel2.Controls.Add(this.label4);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(651, 201);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(187, 214);
-            this.flowLayoutPanel2.TabIndex = 10;
             // 
             // label2
             // 
@@ -157,17 +149,15 @@ namespace TableValleyMunicipalApp.Forms
             this.label2.Text = "View any upcoming commuinty\r\nmeetings, events or important \r\npublic notices in yo" +
     "ur area.";
             // 
-            // label3
+            // flowLayoutPanel2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(3, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(179, 160);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Log any problem whether it be, water leaks, \r\npotholes or power outages, \r\ndirect" +
-    "ly to your municipailty for a faster resolution.";
+            this.flowLayoutPanel2.AutoScroll = true;
+            this.flowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(128)))), ((int)(((byte)(173)))));
+            this.flowLayoutPanel2.Controls.Add(this.label4);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(651, 201);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(187, 214);
+            this.flowLayoutPanel2.TabIndex = 10;
             // 
             // label4
             // 
@@ -180,6 +170,16 @@ namespace TableValleyMunicipalApp.Forms
             this.label4.TabIndex = 13;
             this.label4.Text = "Check the progress of your reported issues \r\nand see which have been resolved \r\nb" +
     "y the municipality.";
+            // 
+            // picLogo
+            // 
+            this.picLogo.Image = global::TableValleyMunicipalApp.Properties.Resources.CF4060B5_1D77_4CE8_B406_78D7B6F9ED5B_1_201_a;
+            this.picLogo.Location = new System.Drawing.Point(-6, 0);
+            this.picLogo.Name = "picLogo";
+            this.picLogo.Size = new System.Drawing.Size(948, 243);
+            this.picLogo.TabIndex = 1;
+            this.picLogo.TabStop = false;
+            this.picLogo.Click += new System.EventHandler(this.picLogo_Click);
             // 
             // HomeForm
             // 
@@ -196,13 +196,13 @@ namespace TableValleyMunicipalApp.Forms
             this.Controls.Add(this.picLogo);
             this.Name = "HomeForm";
             this.Text = "Home - Table Valley";
-            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             this.flpIssues.ResumeLayout(false);
             this.flpIssues.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
             this.flowLayoutPanel2.ResumeLayout(false);
             this.flowLayoutPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -222,5 +222,6 @@ namespace TableValleyMunicipalApp.Forms
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox picLogo;
     }
 }
