@@ -27,9 +27,9 @@ namespace TableValleyMunicipalApp.Forms
         private void LoadSampleRequests()
         {
             //Sample Data
-            ServiceRequest r1 = new ServiceRequest(101, "Water Leakage", "Plumbing", "Pending", 2);
-            ServiceRequest r2 = new ServiceRequest(102, "Water Leakage", "Plumbing", "In Progress", 3);
-            ServiceRequest r3 = new ServiceRequest(103, "Water Leakage", "Plumbing", "Completed", 1);
+            ServiceRequest r1 = new ServiceRequest(1, "Water Leakage", "Plumbing", "Pending", 2);
+            ServiceRequest r2 = new ServiceRequest(2, "PoteHoles", "Roads", "In Progress", 3);
+            ServiceRequest r3 = new ServiceRequest(3, "Clean-up", "Environment", "Completed", 1);
 
             //Adding to tree
             requestTree.Insert(r1);
@@ -103,13 +103,43 @@ namespace TableValleyMunicipalApp.Forms
 
         private void btnViewPriority_Click(object sender, EventArgs e)
         {
+            lstRequests.Items.Clear(); // Clear existing items
 
+            var requestsByPriority = priorityQueue.ToList(); // Get requests from PriorityQueue
+
+            if (requestsByPriority.Count == 0)
+            {
+                MessageBox.Show("No requests available in the priority queue.",
+                    "Empty Queue", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            foreach (var req in requestsByPriority)
+            {
+                lstRequests.Items.Add($"[{req.Priority}] {req.requestID} - {req.Description} | {req.Department} | Status: {req.Status}");
+            }
+
+            MessageBox.Show("Requests are displayed in order of priority (lowest = highest urgency).",
+                "Priority View", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
 
         private void btnViewGraph_Click(object sender, EventArgs e)
         {
+            string graphOutput = requestGraph.DisplayGraph();
 
+            if (string.IsNullOrWhiteSpace(graphOutput))
+            {
+                MessageBox.Show("No department relationships found.",
+                    "Graph Empty", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show(graphOutput,
+                    "Department Relationships", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
+
 
         private void btnBack_Click(object sender, EventArgs e)
         {
