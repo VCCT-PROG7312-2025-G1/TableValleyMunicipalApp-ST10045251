@@ -1,4 +1,6 @@
-﻿namespace TableValleyMunicipalApp.Forms
+﻿using System;
+
+namespace TableValleyMunicipalApp.Forms
 {
     partial class HomeForm
     {
@@ -70,13 +72,15 @@
             // btnTrackProgress
             // 
             this.btnTrackProgress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(128)))), ((int)(((byte)(173)))));
-            this.btnTrackProgress.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.btnStayInformed.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.btnStayInformed.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnTrackProgress.Location = new System.Drawing.Point(650, 364);
             this.btnTrackProgress.Name = "btnTrackProgress";
             this.btnTrackProgress.Size = new System.Drawing.Size(187, 50);
             this.btnTrackProgress.TabIndex = 3;
             this.btnTrackProgress.Text = "Track Progress";
             this.btnTrackProgress.UseVisualStyleBackColor = false;
+            this.btnTrackProgress.Click += new System.EventHandler(this.btnTrackProgress_Click);
             // 
             // btnStayInformed
             // 
@@ -169,7 +173,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.DarkGray;
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(3, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(178, 105);
@@ -202,6 +206,13 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void btnTrackProgress_Click(object sender, EventArgs e)
+        {
+            TrackProgress trackProgress = new TrackProgress();
+            trackProgress.Show();
+            this.Hide();
         }
 
         private System.Windows.Forms.Label label1;
